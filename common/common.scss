@@ -16,11 +16,12 @@
 .custom-search-banner-wrap {
   margin: 0 auto !important;
   max-width: unset;
-  color: var(--secondary);
+  color: var(--primary);
   h1 {
     font-size: 4em;
   }
   p {
+    color: rgb(127,127,127);
     font-size: 1.25em !important;
     font-weight: bold;
     margin-bottom: 1em;
