@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Inter var";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url("https://cal.com/fonts/Inter-roman.var.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cal Sans";
+  src: url("https://cal.com/fonts/cal.ttf");
+}
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
@@ -226,6 +240,7 @@ div.ac-wrap {
 
 html {
   body {
+    font-family: "Inter var";
     background: linear-gradient(
         0deg,
         rgba(var(--primary-rgb), 0.075) 0%,
@@ -239,12 +254,44 @@ html {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(
-      90deg,
-      var(--tertiary-hover) 0%,
-      var(--tertiary) 100%
-    );
+    background: url(https://cal.com/noise.svg), radial-gradient(farthest-side at right top, rgb(162, 171, 190) 0%, rgb(227, 227, 227) 100%);
     clip-path: ellipse(148% 70% at 91% -14%);
+  }
+
+  /* usage samples with adjusted letter spacings */
+  h1 {
+    font-family: "Cal Sans";
+    font-size: 56px;
+  }
+  h2 {
+    font-family: "Cal Sans";
+    font-size: 40px;
+    letter-spacing: 0.01em;
+  }
+  h3 {
+    font-family: "Cal Sans";
+    font-size: 36px;
+    letter-spacing: 0.015em;
+  }
+  h4 {
+    font-family: "Cal Sans";
+    font-size: 28px;
+    letter-spacing: 0.02em;
+  }
+  h5 {
+    font-family: "Cal Sans";
+    font-size: 20px;
+    letter-spacing: 0.03em;
+  }
+  h6 {
+    font-family: "Cal Sans";
+    font-size: 16px;
+    letter-spacing: 0.04em;
+  }
+  .quote {
+    font-family: "Cal Sans";
+    font-size: 24px;
+    letter-spacing: 0.02em;
   }
 }
 
