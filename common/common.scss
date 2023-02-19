@@ -437,6 +437,11 @@ html body #main-outlet {
   display: none;
 }
 
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
+  box-shadow: none;
+  border: 1px solid #e5e7eb;
+}
+
 .full-width .contents .topic-list .topic-list-item .posters a.latest {
   margin-right: 4px;
   width: 100%;
