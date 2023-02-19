@@ -31,7 +31,7 @@
   }
   .search-menu input[type="text"] {
     border: 1px solid transparent;
-    border-radius: 0.25em;
+    border-radius: 6px;
     min-height: 40px;
     &:focus {
       outline: 3px solid rgba(var(--primary-rgb), 0.35);
@@ -39,7 +39,7 @@
   }
   .widget-link.show-help {
     color: rgba(var(--primary-rgb), 0.75);
-    border-radius: 0.5em;
+    border-radius: 6px;
     padding: 0.5em;
     background-color: rgba(var(--secondary-rgb), 0.25);
     &:hover {
@@ -52,7 +52,7 @@
   }
   .results {
     top: 43px;
-    border-radius: 0.25em;
+    border-radius: 6px;
   }
   .search-context {
     top: 3.25em;
@@ -61,7 +61,7 @@
 }
 
 .search-input {
-  border-radius: 0.25em;
+  border-radius: 6px;
 }
 
 .display-search-banner {
@@ -86,13 +86,13 @@
 }
 
 .badge-wrapper.box {
-  border-radius: 0.25em;
+  border-radius: 6px;
   overflow: hidden;
 }
 
 .badge-wrapper.bullet {
   .badge-category-bg {
-    border-radius: 0.125em;
+    border-radius: 6px;
   }
   .badge-category-parent-bg {
     border-top-left-radius: 0.125em;
@@ -108,7 +108,7 @@
 
 .discourse-tag {
   font-size: $font-down-1;
-  border-radius: 0.25em;
+  border-radius: 6px;
   padding: 0.15em 0.25em 0.15em 0.35em;
   background-color: var(--primary-low);
   color: var(--primary) !important;
@@ -160,7 +160,7 @@ input[type="color"],
 .select-kit.combo-box .select-kit-header,
 .d-editor-textarea-wrapper,
 div.ac-wrap {
-  border-radius: 4px;
+  border-radius: 6px;
 }
 .d-header {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
@@ -171,7 +171,7 @@ div.ac-wrap {
 }
 
 .d-header-icons .icon {
-  border-radius: 0.25em;
+  border-radius: 6px;
   margin-left: 0.3em;
   border: 1px solid transparent;
   svg {
@@ -180,12 +180,12 @@ div.ac-wrap {
 }
 
 .d-header-icons .icon img.avatar {
-  border-radius: 0.25em;
+  border-radius: 6px;
 }
 
 .menu-panel.drop-down {
   margin-top: 1em;
-  border-radius: 0.5em;
+  border-radius: 6px;
   border: 1px solid var(--primary-low-mid);
 }
 
@@ -209,13 +209,13 @@ div.ac-wrap {
 
 .btn:not(.themes-tab):not(.components-tab),
 .select-kit.dropdown-select-box .dropdown-select-box-header {
-  border-radius: 8px;
+  border-radius: 6px;
   border: 1px solid transparent;
 }
 
 .post-admin-menu.popup-menu {
   .btn.widget-button {
-    border-radius: 0px;
+    border-radius: 6px;
   }
 }
 
@@ -299,7 +299,7 @@ html body #main-outlet {
   margin-top: 30px;
   margin-bottom: 50px;
   background: var(--secondary);
-  border-radius: 1em;
+  border-radius: 6px;
   padding: 3em 3em 5%;
   max-width: 1150px;
   .archetype-regular & {
@@ -321,7 +321,7 @@ html body #main-outlet {
 
 .nav-pills > li a.active,
 .nav-pills > li > a {
-  border-radius: 0.5em;
+  border-radius: 6px;
 }
 
 // Topic List
@@ -374,7 +374,7 @@ html body #main-outlet {
       margin-bottom: 0.5em;
       background-color: var(--secondary);
       border: 1px solid rgba(var(--primary-rgb), 0.2);
-      border-radius: 1em;
+      border-radius: 6px;
       position: relative;
       transition: box-shadow 100ms ease-in-out;
       box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
@@ -479,7 +479,7 @@ html body #main-outlet {
       .avatar {
         width: 40px;
         height: 40px;
-        border-radius: 8px;
+        border-radius: 6px;
       }
       a.latest {
         .avatar {
@@ -527,7 +527,7 @@ html body #main-outlet {
   margin-top: 30px;
   margin-bottom: 50px;
   background: var(--secondary);
-  border-radius: 1em;
+  border-radius: 6px;
   padding: 3em 3em 5%;
   box-shadow: 0 24px 40px rgba(0, 0, 0, 0.07),
     0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
@@ -559,7 +559,7 @@ html body #main-outlet {
 
 .quote-button {
   background-color: var(--primary-low-mid);
-  border-radius: 0.5em;
+  border-radius: 6px;
 }
 
 .topic-list tr.selected td:nth-child(2),
