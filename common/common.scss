@@ -441,6 +441,10 @@ html body #main-outlet {
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
   box-shadow: none;
   border: 1px solid #e5e7eb;
+  
+  &:hover {
+    background-color: rgb(249, 250, 251);
+  }
 }
 
 .full-width .contents .topic-list .topic-list-item .posters a.latest {
