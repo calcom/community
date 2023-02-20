@@ -21,7 +21,7 @@
     font-size: 4em;
   }
   p {
-    color: rgb(127,127,127);
+    color: var(--primary-900);
     font-size: 1.25em !important;
     font-weight: normal;
     margin-bottom: 1em;
@@ -255,7 +255,7 @@ html {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background: url(https://cal.com/noise.svg),radial-gradient(farthest-side at right top, var(--primary-500) 0%, var(--primary-300) 100%);
+    background: url(https://cal.com/noise.svg),radial-gradient(farthest-side at right top, var(--primary-600) 0%, var(--primary-200) 100%);
   }
 
   /* usage samples with adjusted letter spacings */
