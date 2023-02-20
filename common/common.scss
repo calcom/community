@@ -241,7 +241,7 @@ div.ac-wrap {
 
 @media (prefers-color-scheme: dark) { 
   .background-container {
-    background: url(https://cal.com/noise.svg), radial-gradient(farthest-side at right top, rgb(49, 49, 49) 0%, rgb(34, 34, 34) 100%);
+    background: url(https://cal.com/noise.svg),radial-gradient(farthest-side at right top, var(--primary-500) 0%, var(--primary-300) 100%);
   }
 }
 
