@@ -239,6 +239,12 @@ div.ac-wrap {
     0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
 }
 
+@media (prefers-color-scheme: dark) { 
+  .background-container {
+    background: url(https://cal.com/noise.svg), radial-gradient(farthest-side at right top, rgb(49, 49, 49) 0%, rgb(34, 34, 34) 100%);
+  }
+}
+
 html {
   body {
     font-family: "Inter var";
@@ -298,7 +304,6 @@ html {
 html body #main-outlet {
   margin-bottom: 50px;
   background: var(--secondary);
-  box-shadow: none !important;
   border-radius: 6px;
   padding: 3em 3em 5%;
   max-width: 1150px;
@@ -310,7 +315,6 @@ html body #main-outlet {
     margin-top: 0;
   }
   padding-bottom: 5% !important; //overriding inline style
-  @include box-shadow;
   @media screen and (max-width: 1120px) {
     width: 80%;
   }
