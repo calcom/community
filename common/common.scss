@@ -47,8 +47,8 @@
     }
   }
   .search-menu .search-input {
-    border-color: rgb(127,127,127);
-    outline: 1px solid rgb(127,127,127);
+    border-color: var(--primary-800);
+    outline: 1px solid var(--primary-800);
   }
   .results {
     top: 43px;
