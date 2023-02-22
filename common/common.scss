@@ -175,14 +175,15 @@ input[type="color"],
 .d-editor-textarea-wrapper,
 div.ac-wrap {
   border-radius: 6px;
+  border: 1px solid #444;
 }
+
 .d-header {
   backdrop-filter: blur(8px);
   background: rgba(17, 17, 17, 0.9);
   border-bottom: 1px solid #444;
 }
 
-input,
 .d-editor-textarea-wrapper,
 .menu-panel.drop-down {
   border: 1px solid #444;
