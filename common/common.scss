@@ -182,8 +182,20 @@ div.ac-wrap {
   border-bottom: 1px solid #444;
 }
 
+.menu-panel.drop-down {
+  border: 1px solid #444;
+}
+
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
   border: 1px solid #444;
+}
+.user-menu.revamped .quick-access-panel li {
+  margin-bottom: 2px;
+}
+
+.user-menu.revamped .quick-access-panel li:hover {
+  background: #2b2b2b;
+  border-radius: 8px;
 }
 
 .d-header-icons .d-icon {
