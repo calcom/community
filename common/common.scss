@@ -113,6 +113,11 @@
   border-radius: 12px !important;
 }
 
+.navigation-categories .navigation-container,
+.categories-list .navigation-container {
+  border-bottom: 0;
+}
+
 .badge-wrapper.box {
   border-radius: 6px;
   overflow: hidden;
