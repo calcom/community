@@ -13,13 +13,13 @@
   },
   "color_schemes": {
     "air-light": {
-      "primary": "1c1c1c",
-      "secondary": "f9fcff",
-      "tertiary": "3877e5",
-      "quaternary": "7e8b93",
-      "header_background": "f9fcff",
-      "header_primary": "122b43",
-      "highlight": "e6cb37",
+      "primary": "e0e0e0",
+      "secondary": "2d2d2d",
+      "tertiary": "9a5cfd",
+      "quaternary": "71bd9f",
+      "header_background": "202020",
+      "header_primary": "e0e0e0",
+      "highlight": "9a5cfd",
       "danger": "d05454",
       "success": "71bd9f",
       "love": "c16ad7"
