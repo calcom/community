@@ -256,7 +256,6 @@ html {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background: url(https://cal.com/noise.svg),radial-gradient(farthest-side at right top, var(--primary-600) 0%, var(--primary-200) 100%);
   }
 
   /* usage samples with adjusted letter spacings */
@@ -439,7 +438,7 @@ html body #main-outlet {
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
   box-shadow: none;
   border: 1px solid var(--primary-400);
-  
+
   &:hover {
     background-color: var(--primary-200);
   }
