@@ -103,6 +103,14 @@
 .nav-pills > li a.active,
 .nav-pills > li > a {
   border-radius: 20px !important;
+  -moz-transition: all 0.51s;
+  -o-transition: all 0.51s;
+  -webkit-transition: all 0.51s;
+  transition: all 0.51s;
+}
+
+.btn:hover {
+  border-radius: 12px !important;
 }
 
 .badge-wrapper.box {
