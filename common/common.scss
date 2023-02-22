@@ -99,6 +99,12 @@
   flex: unset;
 }
 
+.btn,
+.nav-pills > li a.active,
+.nav-pills > li > a {
+  border-radius: 20px !important;
+}
+
 .badge-wrapper.box {
   border-radius: 6px;
   overflow: hidden;
