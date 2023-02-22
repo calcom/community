@@ -182,6 +182,8 @@ div.ac-wrap {
   border-bottom: 1px solid #444;
 }
 
+input,
+.d-editor-textarea-wrapper,
 .menu-panel.drop-down {
   border: 1px solid #444;
 }
@@ -198,6 +200,21 @@ div.ac-wrap {
   background: #111;
 }
 
+#create-topic  {
+  background: #fff;
+  color: #111;
+}
+
+#create-topic  svg {
+  color: #111;
+}
+
+.open .grippie {
+  background: #444;
+}
+
+.search-menu .search-link:focus,
+.search-menu .search-link:hover,
 .sidebar-more-section-links-details:focus-within,
 .sidebar-more-section-links-details:hover,
 .user-menu.revamped .quick-access-panel li:hover,
