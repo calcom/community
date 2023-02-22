@@ -611,6 +611,14 @@ html body #main-outlet {
 .navigation-container {
   margin-top: 2em;
 }
+@media only screen and (max-width: 600px) {
+  .custom-search-banner-wrap h1 {
+    font-size: 2em;
+  }
+  .custom-search-banner-wrap p {
+    font-size: 1em;
+  }
+}
 
 // published page additions
 .published-page-content-wrapper {
