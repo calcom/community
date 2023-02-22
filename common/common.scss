@@ -59,11 +59,13 @@
   }
 }
 
-.user-menu.revamped .tabs-list .btn:hover {
+.user-menu.revamped .tabs-list .btn:hover,
+.user-menu.revamped .tabs-list .btn.active {
   background: transparent;
 }
 
-.user-menu.revamped .tabs-list .btn:hover svg {
+.user-menu.revamped .tabs-list .btn:hover svg,
+.user-menu.revamped .tabs-list .btn.active svg {
   fill: #fff;
 }
 
