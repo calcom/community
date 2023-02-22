@@ -193,7 +193,13 @@ div.ac-wrap {
   margin-bottom: 2px;
 }
 
-.user-menu.revamped .quick-access-panel li:hover {
+.user-menu.revamped .quick-access-panel li:hover,
+.hamburger-panel
+  .revamped
+  .sidebar-section-wrapper
+  .sidebar-section-link.active,
+.sidebar-section-link-wrapper .sidebar-section-link:focus,
+.sidebar-section-link-wrapper .sidebar-section-link:hover {
   background: #2b2b2b;
   border-radius: 8px;
 }
