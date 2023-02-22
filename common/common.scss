@@ -47,8 +47,7 @@
     }
   }
   .search-menu .search-input {
-    border-color: var(--primary-800);
-    outline: 1px solid var(--primary-800);
+    outline: none;
   }
   .results {
     top: 43px;
@@ -60,8 +59,17 @@
   }
 }
 
+.user-menu.revamped .tabs-list .btn:hover {
+  background: transparent;
+}
+
+.user-menu.revamped .tabs-list .btn:hover svg {
+  fill: #fff;
+}
+
 .search-input {
   border-radius: 6px;
+  border: 0;
 }
 
 .display-search-banner {
@@ -256,7 +264,7 @@ html {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background: "#101010";
+    background: #101010;
   }
 
   /* usage samples with adjusted letter spacings */
@@ -298,6 +306,7 @@ html {
 
 html body #main-outlet {
   margin-bottom: 50px;
+  border: 1px solid #444444;
   background: var(--secondary);
   border-radius: 6px;
   padding: 3em 3em 5%;
