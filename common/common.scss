@@ -59,6 +59,10 @@
   }
 }
 
+.footer-message h3 {
+  font-size: 24px;
+}
+
 .user-menu.revamped .tabs-list .btn:hover,
 .user-menu.revamped .tabs-list .btn.active {
   background: transparent;
@@ -173,7 +177,13 @@ div.ac-wrap {
   border-radius: 6px;
 }
 .d-header {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(8px);
+  background: rgba(17, 17, 17, 0.9);
+  border-bottom: 1px solid #444;
+}
+
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
+  border: 1px solid #444;
 }
 
 .d-header-icons .d-icon {
