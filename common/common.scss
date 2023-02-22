@@ -347,7 +347,7 @@ html body #main-outlet {
   border: 1px solid #444444;
   background: var(--secondary);
   border-radius: 6px;
-  padding: 3em 3em 5%;
+  padding: 3em 3em 0px;
   max-width: 1150px;
   .archetype-regular & {
     min-height: 500px;
@@ -356,7 +356,6 @@ html body #main-outlet {
     padding: 1.5em;
     margin-top: 0;
   }
-  padding-bottom: 5% !important; //overriding inline style
   @media screen and (max-width: 1120px) {
     width: 80%;
   }
