@@ -189,10 +189,13 @@ div.ac-wrap {
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
   border: 1px solid #444;
 }
-.user-menu.revamped .quick-access-panel li {
+.user-menu.revamped .quick-access-panel li,
+.sidebar-section-content li {
   margin-bottom: 2px;
 }
 
+.sidebar-more-section-links-details:focus-within,
+.sidebar-more-section-links-details:hover,
 .user-menu.revamped .quick-access-panel li:hover,
 .hamburger-panel
   .revamped
