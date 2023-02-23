@@ -44,6 +44,10 @@ html body.staff:not(.navigation-topics) #main-outlet {
   max-width: calc(100vw - 1.5em);
 }
 
+.list-controls .navigation-container {
+  margin: 0.5em;
+}
+
 .navigation-categories .navigation-container,
 .categories-list .navigation-container {
   border-bottom: 0px !important;
