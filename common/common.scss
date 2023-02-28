@@ -9,7 +9,8 @@
 
 @font-face {
   font-family: "Cal Sans";
-  src: url("https://cal.com/fonts/cal.ttf");
+  src: url("https://cal.com/fonts/cal.ttf") format('truetype'),
+       url("/fonts/cal-sans/CalSans-SemiBold.woff2") format("woff2");
 }
 
 // custom search banner customizations
@@ -102,15 +103,11 @@
 .btn,
 .nav-pills > li a.active,
 .nav-pills > li > a {
-  border-radius: 20px !important;
+  border-radius: 6px !important;
   -moz-transition: all 0.51s;
   -o-transition: all 0.51s;
   -webkit-transition: all 0.51s;
   transition: all 0.51s;
-}
-
-.btn:hover {
-  border-radius: 12px !important;
 }
 
 .navigation-categories .navigation-container,
@@ -245,7 +242,7 @@ div.ac-wrap {
 .sidebar-section-link-wrapper .sidebar-section-link:focus,
 .sidebar-section-link-wrapper .sidebar-section-link:hover {
   background: #2b2b2b;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .d-header-icons .d-icon {
